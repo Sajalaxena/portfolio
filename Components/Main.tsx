@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
+import Resume from './Resume'
 
 const Main = () => {
   return (
@@ -22,12 +23,12 @@ const Main = () => {
       </p>
       <p className="summary">
         In the coding universe, I'm a software engineer juggling both <strong>front-end </strong>
-        finesse and <strong>back-end </strong> brawn. "From debugging the streets of 
+        finesse and <strong> back-end </strong> brawn. "From debugging the streets of 
         Delhi to capturing the perfect shot of a serene sunrise in Chennai, I'm the <strong>tech-savvy explorer </strong>
         who solves puzzles both in code and in real life. With a knack for troubleshooting 
         and a passion for <strong>photography</strong>, I'm the adventurous <strong>problem-solver </strong> you want on your team."
       </p>
-    {/* <Resume/> */}
+        <Resume/>
     
     
        </section>
