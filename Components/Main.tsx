@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Main = () => {
   return (
     
-       <>
+       <div>
        <section className=' flex flex-col mt-2 mx-40 relative z-30 '>
 
       <div className="summary flex flex-row">
@@ -31,7 +31,7 @@ const Main = () => {
     
     
        </section>
-    </>
+    </div>
     
   )
 }
