@@ -5,9 +5,7 @@ import Link from "next/link"
 const Navbar = () => {
   return (
     <nav className="flexBetween my-10 mx-40 relative z-30 py-5">
-      {/* <Link href="/">
-        <Image src="/charizard-seeklogo.svg" alt="logo" width={74} height={29} />
-      </Link> */}
+    
 
       <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (
