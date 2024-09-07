@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
 import Resume from './Resume'
+import ChatBot from './chatbot'
 
 const Main = () => {
   return (
@@ -30,7 +31,7 @@ const Main = () => {
       </p>
         <Resume/>
     
-    
+       
        </section>
     </div>
     
